@@ -24,7 +24,7 @@ public class Principal {
         notificar.attach(carritoDeCompras);
 
         while (true) {
-            System.out.print("Seleccione el producto a comprar\n1. Zapatos deportivos \n2. Camisa corta\n3. Chaqueta \n4. Salir\nOpcion: ");
+            System.out.print("Seleccione el producto a comprar\n1. Zapatos deportivos \n2. Camisa corta\n3. Chaqueta \n4. Salir\nOpcion número: ");
             int opcion = entrada.nextInt();
             System.out.println("..........................................");
             
@@ -50,7 +50,7 @@ public class Principal {
             int cantidad = entrada.nextInt();
 
             System.out.println("..........................................");
-            System.out.print("\nSeleccione:\n1. Si desea añadir el producto al carrito de compras\n2. Si desea volver a escojer un producto\nOpcion: ");
+            System.out.print("\nSeleccione:\n1. Si desea añadir el producto al carrito de compras\n2. Si desea volver a escojer un producto\nOpcion número: ");
             int opcion_compra_producto = entrada.nextInt();
 
             // carrito de compras
@@ -61,7 +61,7 @@ public class Principal {
                 carritoDeCompras.mostrarCarrito();
                 System.out.println("..........................................");
                 
-                System.out.print("\nSeleccione:\n1. Pagar\n2. Si desea agregar mas productos al carrito\nOpcion: ");
+                System.out.print("\nSeleccione:\n1. Pagar\n2. Si desea agregar mas productos al carrito\nOpcion número: ");
                 int opcion_compra = entrada.nextInt();
                 System.out.println("..........................................\n");
 
